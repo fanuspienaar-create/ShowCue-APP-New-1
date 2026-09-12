@@ -1,7 +1,16 @@
-# ShowCue v3 CLEAN BASELINE
+# ShowCue v4 — Cue Pad Media Sync
 
-The logo and stage artwork are embedded directly into index.html to prevent broken-image/cache/path failures.
+Built from the locked v3 baseline. v3 remains unchanged.
 
-Sections: Home, Setlists, Songs, Cue Pads, Lyrics, Media, TV Display, Settings, Backup, Help.
+## Cue Pad additions
+- Per-pad colour picker.
+- Assign an actual audio file from Songs.
+- Assign an actual video from Media.
+- Audio and video launch together from the same Cue Pad.
+- Video audio is muted so the assigned track is the single audio source.
+- Periodic sync correction keeps video aligned to the audio track.
+- TV Display toggle/page and separate display window for a second monitor/TV.
+- TV display receives play/pause/stop/time state from the Cue Pad player.
 
-Setlists store playlists only. Cue Pads support 12/20/40 pads. Lyrics includes auto-scroll and quick performance pads. The performance bar appears only on Cue Pads.
+## Storage
+Audio and video files are stored locally using IndexedDB. They are not uploaded to a server.

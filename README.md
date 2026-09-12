@@ -1,2 +1,7 @@
-# ShowCue-APP-New-1
-Free cross-platform show &amp; audio cue app for live performers — manage backing tracks, sound effects, cues and automatic volume leveling on your own devices.
+# ShowCue v3 CLEAN BASELINE
+
+The logo and stage artwork are embedded directly into index.html to prevent broken-image/cache/path failures.
+
+Sections: Home, Setlists, Songs, Cue Pads, Lyrics, Media, TV Display, Settings, Backup, Help.
+
+Setlists store playlists only. Cue Pads support 12/20/40 pads. Lyrics includes auto-scroll and quick performance pads. The performance bar appears only on Cue Pads.
